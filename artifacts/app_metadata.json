@@ -1,0 +1,108 @@
+{
+  "selected_experiment": "ANN_013",
+  "price_unit": "INR",
+  "display_unit": "INR lakh",
+  "requires_complete_inputs": true,
+  "age_reference_year": 2020,
+  "age_definition": "age_reference_year minus manufacturing_year",
+  "brand_options": [
+    "Ambassador",
+    "Audi",
+    "BMW",
+    "Chevrolet",
+    "Daewoo",
+    "Datsun",
+    "Fiat",
+    "Force",
+    "Ford",
+    "Honda",
+    "Hyundai",
+    "Isuzu",
+    "Jaguar",
+    "Jeep",
+    "Kia",
+    "MG",
+    "Mahindra",
+    "Maruti",
+    "Mercedes-Benz",
+    "Mitsubishi",
+    "Nissan",
+    "Opel",
+    "Peugeot",
+    "Renault",
+    "Skoda",
+    "Tata",
+    "Toyota",
+    "Volkswagen",
+    "Volvo"
+  ],
+  "categorical_options": {
+    "fuel": [
+      "CNG",
+      "Diesel",
+      "LPG",
+      "Petrol"
+    ],
+    "seller_type": [
+      "Dealer",
+      "Individual",
+      "Trustmark Dealer"
+    ],
+    "transmission": [
+      "Automatic",
+      "Manual"
+    ],
+    "owner": [
+      "First Owner",
+      "Fourth & Above Owner",
+      "Second Owner",
+      "Test Drive Car",
+      "Third Owner"
+    ],
+    "mileage_unit": [
+      "km/kg",
+      "kmpl"
+    ]
+  },
+  "numeric_training_summary": {
+    "car_age": {
+      "min": 0.0,
+      "max": 37.0,
+      "median": 6.0
+    },
+    "km_driven": {
+      "min": 1.0,
+      "max": 1500000.0,
+      "median": 70000.0
+    },
+    "mileage_value": {
+      "min": 9.0,
+      "max": 42.0,
+      "median": 19.4
+    },
+    "engine": {
+      "min": 624.0,
+      "max": 3604.0,
+      "median": 1248.0
+    },
+    "max_power": {
+      "min": 32.8,
+      "max": 400.0,
+      "median": 81.845
+    },
+    "seats": {
+      "min": 2.0,
+      "max": 14.0,
+      "median": 5.0
+    }
+  },
+  "uncertainty": {
+    "method": "Monte Carlo dropout",
+    "samples": 50,
+    "lower_percentile": 5,
+    "upper_percentile": 95,
+    "calibrated": false,
+    "validation_coverage_percent": 49.66313763233879,
+    "label": "Estimated model-uncertainty range"
+  }
+}
