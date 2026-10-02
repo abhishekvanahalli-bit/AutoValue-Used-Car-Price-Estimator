@@ -1,4 +1,4 @@
-# AutoValue: Used-Car Price Estimator
+# Used-Car Price Estimator for the Indian market
 
 MSc neural-network project using the Indian CarDekho dataset.
 
