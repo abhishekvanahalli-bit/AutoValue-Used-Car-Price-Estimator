@@ -1,5 +1,7 @@
 # AutoValue — Used Car Price Estimation with Neural Networks
 
+![AutoValue cover image: used cars, a neural network and a price-prediction interface](assets/autovalue-cover.png)
+
 AutoValue estimates the selling price of a used car in the Indian market from twelve vehicle details. A Keras neural network with a learned brand embedding produces the estimate, a FastAPI service serves the model, and a Streamlit interface lets a user enter a car and explore the result.
 
 MSc Data Science · NNDL · Trimester 4 · CHRIST (Deemed to be University), Pune Lavasa Campus
@@ -51,6 +53,7 @@ AutoValue-Used-Car-Price-Estimator
 │   ├── final_test_results.csv
 │   └── training_environment.json
 ├── results/                            Experiment tables, plots, test predictions, scratch-model weights
+├── assets/                             README cover image
 ├── data/raw/                           Place the dataset here (not included)
 ├── NNDL_Car_Price_Project (1).ipynb    Training notebook (Google Colab)
 ├── NNDL_Project_Report.docx            Project report
