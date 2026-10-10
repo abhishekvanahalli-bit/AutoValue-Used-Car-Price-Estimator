@@ -1,0 +1,8 @@
+*.bat text eol=crlf
+*.keras binary
+*.joblib binary
+*.npy binary
+*.npz binary
+*.docx binary
+*.pptx binary
+*.png binary

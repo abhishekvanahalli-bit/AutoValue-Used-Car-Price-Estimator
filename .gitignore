@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Runtime output
+logs/
+setup_log.txt
+
+# Raw dataset (download from Kaggle; see README)
+data/raw/*.csv
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editors and operating system
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
